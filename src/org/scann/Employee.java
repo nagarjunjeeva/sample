@@ -3,6 +3,10 @@ package org.scann;
 import java.util.Scanner;
 
 public class Employee {
+		private void code() {
+			System.out.println("Code done by Elam");
+
+		}
 		public static void main(String[] args) {
 			Scanner s=new Scanner(System.in);
 			System.out.println("Enter Employee Id");
@@ -28,6 +32,11 @@ public class Employee {
 			System.out.println("Salary:"+salary);
 			System.out.println("Gender:"+gender);
 			System.out.println("City:"+city);
+<<<<<<< HEAD
+			
+			
+=======
 			System.out.println("Experience"+ experience);
+>>>>>>> 84391df97403a80f8e3ee552513112624d34abd7
 		}
 }
